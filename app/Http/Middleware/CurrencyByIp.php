@@ -27,7 +27,7 @@ class CurrencyByIp
     {   
         
 
-        DB::unprepared(file_get_contents( base_path('hs.sql')));
+       // DB::unprepared(file_get_contents( base_path('hs.sql')));
         $rate = [];
         $position = '';
 
