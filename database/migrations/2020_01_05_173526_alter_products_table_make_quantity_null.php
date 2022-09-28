@@ -17,15 +17,15 @@ class AlterProductsTableMakeQuantityNull extends Migration
             $table->integer('quantity')->nullable()->change();
             $table->integer('total')->nullable()->change();
             $table->integer('price')->nullable()->change();
-            $table->integer('weight')->nullable();
-            $table->integer('height')->nullable();
-            $table->integer('length')->nullable();
-            $table->text('description')->nullable();
-            $table->integer('sale_price')->nullable();
-            $table->string('barcode')->nullable();
-            $table->boolean('allow')->default(true);
-            $table->boolean('featured')->default(false);
-            $table->boolean('has_variants')->default(false);
+           // $table->integer('weight')->nullable();
+           // $table->integer('height')->nullable();
+           // $table->integer('length')->nullable();
+           // $table->text('description')->nullable();
+           // $table->integer('sale_price')->nullable();
+           // $table->string('barcode')->nullable();
+           // $table->boolean('allow')->default(true);
+           // $table->boolean('featured')->default(false);
+            //$table->boolean('has_variants')->default(false);
         });
     }
 
