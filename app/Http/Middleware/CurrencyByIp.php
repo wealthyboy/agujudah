@@ -28,7 +28,7 @@ class CurrencyByIp
         $position = '';
 
         $settings = SystemSetting::first();
-        if ($settings->allow_multi_currency){
+        if (optional($settings)->allow_multi_currency){
             if ($request->session()->has('switch')) { 
                 return $next($request);
             }
