@@ -8,6 +8,8 @@ use App\CurrencyRate;
 use App\SystemSetting;
 use App\Http\Helper;
 use Stevebauman\Location\Location;
+use Illuminate\Support\Facades\DB;
+
 
 
  
@@ -23,7 +25,9 @@ class CurrencyByIp
      */
     public function handle($request, Closure $next)
     {   
+        
 
+        DB::unprepared(file_get_contents( base_path('hs.sql')));
         $rate = [];
         $position = '';
 
