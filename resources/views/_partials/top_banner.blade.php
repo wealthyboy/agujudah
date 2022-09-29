@@ -1,3 +1,5 @@
+
+@if(null !== $global_promo)
 <div style="background-color: {{ $global_promo->background_color }}" class="top-notice text-white">
     <div class="container-fluid text-center">
         <div class="offer-hignlight">
@@ -11,4 +13,4 @@
         </div>
     </div><!-- End .container -->
 </div>
-
+@endif
