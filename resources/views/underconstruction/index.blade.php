@@ -158,7 +158,7 @@ hr {
     <p></p>
   </div>
   <div class="middle">
-    <h1> Hautesignatures is under maintainance</h1>
+    <h1> Agu Judah is under maintainance</h1>
     <p>Please check back later</p>
 
     <hr>
