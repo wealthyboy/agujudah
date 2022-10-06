@@ -7946,7 +7946,7 @@ header .separator {
     bottom: 0;
     left: 0;
     width: 100%;
-    max-width: 250px;
+    max-width: 330px;
     transform: translateX(-100%);
     transition: all 0.25s;
     background-color: #2f2659;
