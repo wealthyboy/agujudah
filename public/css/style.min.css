@@ -7555,11 +7555,11 @@ header .separator {
 }
 
 .header-search-category .form-control {
-    border-radius: 5rem 0 0 5rem;
+    border-radius: none;
 }
 
 .header-search-category .btn {
-    border-radius: 0 5rem 5rem 0;
+    border-radius: none;
 }
 
 .header-search-wrapper {
