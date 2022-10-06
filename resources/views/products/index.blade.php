@@ -34,7 +34,7 @@
         
         
        @if ( isset($category) &&  isset($category_attributes) && !empty($category_attributes) )
-            <div class="col-lg-9 main-content">
+            <div class="col-lg-12 main-content">
                 <div class="product-overlay d-none">
                     <div class="loading">
                         <div class="loader"></div>
