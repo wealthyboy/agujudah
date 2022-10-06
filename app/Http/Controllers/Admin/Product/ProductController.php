@@ -603,7 +603,8 @@ class ProductController extends Controller
         $product->attributes  = $this->attributes($request);
         $product->save();
         $categories = Category::find($request->category_id);
-        $meta_fields = array_filter(array_values($request->meta_fields));
+        $meta_fields = null !==  $request->meta_fields ? array_filter(array_values($request->meta_fields)) : null;
+
 
         if( !empty($request->category_id) ){
             $product->categories()->sync($request->category_id);
