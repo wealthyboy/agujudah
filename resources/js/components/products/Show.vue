@@ -270,7 +270,7 @@ export default {
     this.product_variation_id = this.product.id;
     this.percentage_off = this.product.default_percentage_off;
     this.quantity = this.product.quantity;
-    this.cText = "Call " + $root.settings.store_phone +" to order";
+    this.cText = "Call " + this.$root.settings.store_phone +" to order";
     this.price = this.product.converted_price;
     this.discounted_price = this.product.default_discounted_price;
     this.is_wishlist = this.product.is_wishlist;
