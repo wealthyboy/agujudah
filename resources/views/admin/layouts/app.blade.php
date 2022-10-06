@@ -15,8 +15,8 @@
         <!-- Favicone Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" type="image/png" href="/img/favicon-96x96.png">
-	<link rel="apple-touch-icon" href="/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+	<link rel="apple-touch-icon" href="/img/favicon-32x32.png">
 
 	<!--  Material Dashboard CSS    -->
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet"/>
