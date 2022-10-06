@@ -108,15 +108,14 @@
                 
               </div>
 
-              <!-- <div v-if="!product.is_gift_card" class="col-12 p-0">
+              <div v-if="!product.is_gift_card" class="col-12 p-0">
                 <cart-button
                   :loading="loading"
                   :canAddToCart="canAddToCart"
                   :cartText="cartText"
                   @add="addToCart"
                 />
-              </div> -->
-              <div class="col-12 mt-3 text-center"><span><i class="fas fa-2x fa-phone"></i></span> <span class="bold color--gray"> Call +234 9043111111 to order</span></div>
+              </div>
 
              
 
@@ -271,8 +270,7 @@ export default {
     this.product_variation_id = this.product.id;
     this.percentage_off = this.product.default_percentage_off;
     this.quantity = this.product.quantity;
-    this.cText =
-      this.product.quantity < 1 ? "Item is sold out" : "Call to order";
+    this.cText = "Call " + $root.settings.store_phone +" to order";
     this.price = this.product.converted_price;
     this.discounted_price = this.product.default_discounted_price;
     this.is_wishlist = this.product.is_wishlist;
