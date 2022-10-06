@@ -99,38 +99,16 @@
               :quantity="quantity"
             />
 
-            <gift-card-form v-if="product.is_gift_card" :product="product" />
 
             <div v-if="!product.is_gift_card" class="row no-gutters mb-2">
               <div v-if="cartError" class="text-danger text-center bold col-12">
                 {{ cartError }}
               </div>
-              <div class="col-2 pl-3">
-                <div
-                  v-if="quantity >= 1"
-                  id="quantity_1234"
-                  class="select-custom"
-                >
-                  <select
-                    id="add-to-cart-quantity"
-                    name="qty"
-                    class="form-control"
-                  >
-                    <option v-for="x in parseInt(quantity)">{{ x }}</option>
-                  </select>
-                </div>
-                <div v-else id="quantity_1234" class="">
-                  <select
-                    id="add-to-cart-quantity"
-                    name="qty"
-                    class="form-control"
-                  >
-                    <option value=""></option>
-                  </select>
-                </div>
+              
+                
               </div>
 
-              <div v-if="!product.is_gift_card" class="col-9">
+              <div v-if="!product.is_gift_card" class="col-12">
                 <cart-button
                   :loading="loading"
                   :canAddToCart="canAddToCart"
@@ -139,16 +117,9 @@
                 />
               </div>
 
-              <wishlist
-                v-if="!product.is_gift_card"
-                @wishlistChange="addToWishList"
-                :wishlistText="wishlistText"
-              />
+             
 
-              <size-guide
-                v-if="!product.is_gift_card"
-                :attributes="attributes"
-              />
+           
             </div>
           </div>
           <!-- End .product-filters-container -->
@@ -163,7 +134,6 @@
     <reviews :product="product" :meta="meta" :reviews="reviews" />
     <login-modal />
     <register-modal />
-    <out-of-stock :product_variation="product_variation" />
   </div>
 </template>
 <script>
