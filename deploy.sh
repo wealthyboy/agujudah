@@ -1,5 +1,5 @@
 # Change to the project directory
-cd /home/forge/hautesignatures.com
+cd /home/forge/agujudah.com
 
 # Turn on maintenance mode
 php artisan down || true
