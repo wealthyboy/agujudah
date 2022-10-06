@@ -234,7 +234,8 @@ class ProductController extends Controller
         $product_variation->product_id = $product->id;
         $product_variation->default = 1;
         $product_variation->save();
-        $meta_fields = array_filter(array_values($request->meta_fields));
+
+        $meta_fields =  null !==  $request->meta_fields ? array_filter(array_values($request->meta_fields)) : null;
 
 
         if( !empty($request->meta_fields) ){
