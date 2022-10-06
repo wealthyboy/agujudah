@@ -1,9 +1,9 @@
 <template>
-  <div class="product-single-tabs">
+  <div class="product-single-tabs col-12">
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item pl-2">
         <a
-          class="nav-link active"
+          class="nav-link active bold"
           id="product-tab-desc"
           data-toggle="tab"
           href="#product-desc-content"
