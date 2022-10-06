@@ -28,7 +28,6 @@
                 </ul>
             </div><!-- End .header-menu  -->
         </div>
-        <a href="/wishlist" class="header-icon  pl-1 pr-2"><i class="icon-wishlist-2"></i></a>
 
         <div class="dropdown cart-dropdown">
             <a href="#" class="dropdown-toggle dropdown-arrow d-none d-lg-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">

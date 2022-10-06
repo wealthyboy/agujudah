@@ -7050,7 +7050,9 @@ header .separator {
         line-height: 1.5;
     }
     .logo {
-        max-width: 90px;
+        max-width: 159px;
+        position: relative;
+        top: -6px;
     }
     .header-icon:not(:last-child) {
         margin-right: 1.2rem;
