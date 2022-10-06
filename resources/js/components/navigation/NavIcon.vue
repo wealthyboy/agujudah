@@ -8,41 +8,9 @@
 
         <div v-if="$root.loggedIn" class="header-dropdown ml-4">
             <a href="/acoount" class="header-icon  pl-1"><i class="icon-user-2"></i></a>
-
-            <div class="header-menu">
-                <ul>  
-                    <li><a href="/account"><i class="icon-user-2 left"></i>  Account</a></li>
-                    <li><a href="/orders"><i class="fas fa-shopping-cart left"></i> Orders</a></li>
-                    <li>
-                        <a class="" href="/logout"
-                                                onclick="event.preventDefault();
-                                                        document.getElementById('logout-form').submit();">
-                                            <i class="fas fa-sign-out-alt left"></i>
-                                            
-                                            Logout
-                                        </a>
-                                        <form id="logout-form" action="/logout" method="POST" style="display: none;">
-                                            <input type="hidden" name="_token" :value="$root.token">
-                                        </form>
-                    </li>
-                </ul>
-            </div><!-- End .header-menu  -->
         </div>
 
-        <div class="dropdown cart-dropdown">
-            <a href="#" class="dropdown-toggle dropdown-arrow d-none d-lg-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-                <i class="icon-shopping-cart"></i>
-                <span class="cart-count badge-circle">{{ cartItemCount }}</span>
-            </a>
-
-            <a href="#" class="dropdown-toggle dropdown-arrow  d-none d-block  d-xl-none  d-lg-none" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-                <i class="icon-shopping-cart"></i>
-                <span class="cart-count badge-circle">{{ cartItemCount }}</span>
-            </a>
-            <div class="dropdown-menu">
-                <drop-down />
-            </div><!-- End .dropdown-menu -->
-        </div><!-- End .dropdown -->
+        
     </div>
 
 </template>
