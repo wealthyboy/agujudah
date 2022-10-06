@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="product-single-container product-single-default">
+    <div class="product-single-container product-single-default mt-4">
       <div class="row">
         <div class="col-md-1 product-single-gallery d-none d-lg-block">
           <div
@@ -108,7 +108,7 @@
                 
               </div>
 
-              <div v-if="!product.is_gift_card" class="col-12">
+              <div v-if="!product.is_gift_card" class="col-12 p-0">
                 <cart-button
                   :loading="loading"
                   :canAddToCart="canAddToCart"
@@ -187,7 +187,7 @@ export default {
       isActive: false,
       canNotAddToCart: false,
       image: "",
-      cText: "Add To Cart",
+      cText: "Call to order",
       images: [],
       variant_images: [],
       noRating: false,
