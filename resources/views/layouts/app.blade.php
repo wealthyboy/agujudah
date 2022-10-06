@@ -7,15 +7,15 @@
     <title>{{ isset( $page_title) ?  $page_title .' |  '.config('app.name') :  $system_settings->meta_title  }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta name="google-site-verification" content="WQGOl-v7IztNDZtgNC1ZEBkG8nyRsHJ1oLsnsLeiuIQ" />
-	<link rel="preload" href="https://hautesignatures.com/fonts/ProximaNovaAltRegular.otf" as="font" type="font/otf" crossorigin>
-	<link rel="preload" href="https://hautesignatures.com/fonts/GalaxiePolaris-Bold.otf" as="font" type="font/otf" crossorigin>
-	<link rel="preload" href="https://hautesignatures.com/fonts/porto-64334846.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://hautesignatures.com/css/bootstrap.min.css" as="style">
-	<link rel="preload" href="https://hautesignatures.com/css/style.min.css" as="style">
-    <link rel="preload" href="https://hautesignatures.com/css/vendor/fontawesome-free/css/all.min.css" as="style">
-    <link rel="preload" href="https://hautesignatures.com/css/skins/skin-default.css" as="style">
+	<link rel="preload" href="https://agujudah.com/fonts/ProximaNovaAltRegular.otf" as="font" type="font/otf" crossorigin>
+	<link rel="preload" href="https://agujudah.com/fonts/GalaxiePolaris-Bold.otf" as="font" type="font/otf" crossorigin>
+	<link rel="preload" href="https://agujudah.com/fonts/porto-64334846.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://agujudah.com/css/bootstrap.min.css" as="style">
+	<link rel="preload" href="https://agujudah.com/css/style.min.css" as="style">
+    <link rel="preload" href="https://agujudah.com/css/vendor/fontawesome-free/css/all.min.css" as="style">
+    <link rel="preload" href="https://agujudah.com/css/skins/skin-default.css" as="style">
 
-    <link rel="preload" href="https://hautesignatures.com/js/app.js" as="script">
+    <link rel="preload" href="https://agujudah.com/js/app.js" as="script">
  
 
     <meta name="description" content="{{ isset($page_meta_description) ? $page_meta_description : $system_settings->meta_description }}">
@@ -26,8 +26,8 @@
      <!-- Favicone Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" type="image/png" href="/img/favicon-96x96.png">
-	<link rel="apple-touch-icon" href="/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+	<link rel="apple-touch-icon" href="/img/favicon-32x32.png">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -39,13 +39,13 @@
 
     @yield('page-css')
     <link href="/css/custom.css?version={{ str_random(6) }}" rel="stylesheet" type="text/css" />
-    <meta property="og:site_name" content="hautesignatures Co">
-    <meta property="og:url" content="https://hautesignatures.com/">
-    <meta property="og:title" content=" hautesignatures">
+    <meta property="og:site_name" content="Agujudah Co">
+    <meta property="og:url" content="https://Agujudah.com/">
+    <meta property="og:title" content=" Agujudah">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ isset($page_meta_description) ? $page_meta_description : $system_settings->meta_description }}">
     <meta property="og:image:alt" content="">
-    <meta name="twitter:site" content="@hautesignatures">
+    <meta name="twitter:site" content="@Agujudah">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ isset($page_meta_description) ? $page_meta_description : $system_settings->meta_description }}">
     <meta name="twitter:description" content="{{ isset($page_meta_description) ? $page_meta_description : $system_settings->meta_description }}">
@@ -54,9 +54,8 @@
 <script>
   	window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-     gtag('config', 'G-JVYYVR9G8L');
+       gtag('js', new Date());
+       gtag('config', 'G-JVYYVR9G8L');
 
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -222,8 +221,8 @@
 							<p>
 								<div class="contact-widget follow">
 									<div class="social-icons">
-										<a href="https://facebook.com/hautesignatures.ng/" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
-										<a href="https://instagram.com/hautesignatures.ng?igshid=zqjic4sfh041" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+										<a href="https://facebook.com/Agujudah.ng/" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+										<a href="https://instagram.com/Agujudah.ng?igshid=zqjic4sfh041" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
 										<a href="https://wa.me/2348092907541" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
 									</div><!-- End .social-icons -->
 								</div>
