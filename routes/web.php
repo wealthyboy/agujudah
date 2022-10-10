@@ -218,9 +218,7 @@ Route::group(['prefix' => '/api','middleware' => 'currencyByIp'], function () {
 
 Route::post('webhook/payment', 'WebHook\WebHookController@payment');
 Route::post('webhook/zilla',  'WebHook\WebHookController@zilla');
-
 Route::post('contact/store',        'Contact\ContactController@store');
-
 Route::post('webhook/github',      'WebHook\WebHookController@gitHub');
 
 
