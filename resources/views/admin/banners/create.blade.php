@@ -76,6 +76,8 @@
                                  <option value="" selected="selected">--device--</option>
                                  <option value="d-block d-sm-none">Show only on sm devices </option>
                                  <option value="d-none d-lg-block d-xl-block">Show only on lg devices </option>
+                                 <option value="all">All  </option>
+
                            </select>
                         </div>
                     </div>

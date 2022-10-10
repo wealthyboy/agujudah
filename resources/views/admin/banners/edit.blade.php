@@ -68,6 +68,8 @@
                                        <option value="">--device--</option>
                                        <option  {{ $banner->device == "d-block d-sm-none" ? 'selected' : "" }} value="d-block d-sm-none">Show only on sm devices </option>
                                        <option  {{ $banner->device == "d-none d-lg-block d-xl-block" ? 'selected' : "" }} value="d-none d-lg-block d-xl-block">Show only on lg devices </option>
+                                       <option  {{ $banner->device == "all" ? 'selected' : "" }} value="all">All  </option>
+
                                     </select>
                                  </div>
                            </div>
